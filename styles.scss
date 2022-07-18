@@ -94,6 +94,7 @@ section p {
 }
 
 header {
+  min-height: 380px;
   width: 100%;
   height: 60vh;
   background-image: linear-gradient(to right, $veryLigthRedGra, $ligthRedGrad);
@@ -212,6 +213,7 @@ a {
   @include act();
   transition: all 0.5s;
   transform: translateX(-20%);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.24);
 }
 
 .login {
